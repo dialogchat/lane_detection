@@ -1,6 +1,6 @@
 # Lane Detection
 ## Overview
-Different approaches to find lane-lines on roads. The code is mostly based on Udacity's [self driving car program](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
+Use different approaches to find lane-lines on roads. The code is mostly based on Udacity's [self driving car program](https://eu.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
 
 ## Dependencies
 
@@ -23,11 +23,11 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-### ProjectI: Simple Lane Detection
+### Project I: Simple Lane Detection
 
-### ProjectII: Advanced Lane Detection
+### Project II: Advanced Lane Detection
 
-Use an advanced computer vision pipeline to extract features and determine lane-lines even in curved environments. Code works roughly as follows:
+Use an advanced computer vision pipeline to extract features and determine lane-lines even in curved environments. The code works as follows:
 
 (1) Compute a camera calibration matrix and distortion coefficients given a set of chessboard images.
 
@@ -39,20 +39,20 @@ Use an advanced computer vision pipeline to extract features and determine lane-
 
 (5) Apply a histogram to get lane pixels.
 
-(6) Determine the curvature radius vehicle offset
+(6) Determine the curvature radius and vehicle offset
 
-(7) Warp all detected lane boundaries back to the original image.
+(7) Warp the detected lane boundaries back to the original image.
 
-(8) Output visual display 
+(8) Output a visual display 
 
-Run the code with ```python3 P2.py ```
+Run the code with ```python3 P2.py ```.
 
-### ProjectIII: Advanced Lane Detection with Object Detection
+### Project III: Advanced Lane Detection with Object Detection
 
-### ProjectIV: SegNet Lane Detection
+### Project IV: SegNet Lane Detection
 
 
 
 ## Credits
 
-The credits for this code go to [Udacity](https://github.com/udacity) and [georgesung](https://github.com/georgesung/advanced_lane_detection). I  mainly refactored the code and did some bugfixes.
+The credits for this code go to [Udacity](https://github.com/udacity) and [galenballew](https://github.com/galenballew/SDC-Lane-and-Vehicle-Detection-Tracking). I  mainly refactored the code and did some bugfixes.
