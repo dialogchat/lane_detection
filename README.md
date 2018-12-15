@@ -23,13 +23,33 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-### Simple Lane Detection
+### ProjectI: Simple Lane Detection
 
-### Advanced Lane Detection
+### ProjectII: Advanced Lane Detection
 
-### Advanced Lane Detection with Object Detection
+Use an advanced computer vision pipeline to extract features and determine lane-lines even in curved environments. Code works roughly as follows:
 
-### SegNet Lane Detection
+(1) Compute a camera calibration matrix and distortion coefficients given a set of chessboard images.
+
+(2) Apply a distortion correction to raw images.
+
+(3) Use filtering like edge detection, etc., to create a binary image.
+
+(4) Apply a perspective transform ("birds-eye view").
+
+(5) Apply a histogram to get lane pixels.
+
+(6) Determine the curvature radius vehicle offset
+
+(7) Warp all detected lane boundaries back to the original image.
+
+(8) Output visual display 
+
+Run the code with ```python3 P2.py ```
+
+### ProjectIII: Advanced Lane Detection with Object Detection
+
+### ProjectIV: SegNet Lane Detection
 
 
 
