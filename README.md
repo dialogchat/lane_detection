@@ -18,7 +18,7 @@ source ~/lane_detection/bin/activate
 ```
 Clone the Repo, cd into the folder and install all other dependencies in the requirements.txt file:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
