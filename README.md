@@ -6,7 +6,7 @@ Different approaches to find lane-lines on roads. The code is mostly based on Ud
 
 Use Python 3.6 and install virtualenv (virtual environment)
 ```
-sudo apt-get install python-pip python-dev python-virtualenv
+sudo apt-get install python3-pip python3-dev python-virtualenv
 ``` 
 Go to your home directory and create a virtualenv environment
 ```
